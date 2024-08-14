@@ -11,6 +11,5 @@ plugins {
 }
 
 rootProject.name = 'bebealbum'
-include('app', 'db')
-include 'logging'
+include('app', 'db', 'logging')
 

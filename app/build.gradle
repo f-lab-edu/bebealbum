@@ -13,4 +13,5 @@ repositories {
 dependencies {
     implementation 'org.apache.commons:commons-text'
     implementation project(':db')
+    implementation project(':logging')
 }

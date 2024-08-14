@@ -2,14 +2,14 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
-androidGradlePlugin = "7.4.1"
-mockito = "2.16.0"
-springBoot = "3.3.2"
+spring-boot = "3.3.2"
+h2 = "2.2.224"
 
 [libraries]
-googleMaterial = { group = "com.google.android.material", name = "material", version = "1.1.0-alpha05" }
-mockitoCore = { module = "org.mockito:mockito-core", version.ref = "mockito" }
-springBoot = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "springBoot" }
+springBoot = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "spring-boot" }
+springBootStarterDataJpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa", version.ref = "spring-boot" }
+h2 = { module = "com.h2database:h2", version.ref = "h2" }
+
 
 [plugins]
-androidApplication = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
