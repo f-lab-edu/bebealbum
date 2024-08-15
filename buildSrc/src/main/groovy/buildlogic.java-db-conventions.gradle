@@ -5,7 +5,6 @@
 plugins {
     id 'buildlogic.java-common-conventions'
     id 'java-library'
-    /*id 'io.spring.dependency-management'*/
 }
 
 dependencies {

@@ -3,7 +3,7 @@
  */
 
 plugins {
-        id 'buildlogic.java-application-conventions'
+    id 'buildlogic.java-application-conventions'
 }
 
 repositories {
