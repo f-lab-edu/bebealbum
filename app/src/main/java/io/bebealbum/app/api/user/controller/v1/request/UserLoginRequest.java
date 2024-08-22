@@ -1,4 +1,4 @@
-package io.bebealbum.app.api.v1.request;
+package io.bebealbum.app.api.user.controller.v1.request;
 
 public record UserLoginRequest(
         String loginId

@@ -1,4 +1,4 @@
-package io.bebealbum.app.api.v1.domain;
+package io.bebealbum.app.api.user.data;
 
 public record UserResult(
         long id
